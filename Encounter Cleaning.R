@@ -1,0 +1,6 @@
+library(readr)
+library(tidyr)
+library(dplyr)
+encounters <- read.csv("encounters.csv")
+encounters_edvisit <- select(encounters, "PatientDurableKey", "IsEdVisit")
+glimpse(encounters_edvisit)
