@@ -1,4 +1,5 @@
 # DataFest-2026
+[View presentation] /Presentation%20-%20DataFest%202026.pdf
 **Overview**
 
 Healthcare utilization varies significantly across populations due to differences in access, cost, and social determinants of health. This project investigates Emergency Department (ED) visit patterns across Kansas, exploring how demographic factors like age and race interact to predict ED utilization.
@@ -12,14 +13,23 @@ The goal is to identify patterns in emergency department use to better understan
 **Dataset**
 
 The project uses five linked datasets from a Kansas healthcare system:
-FileDescriptionpatients.csv Patient demographics including age, race, and vital statusencounters.csvHospital encounter records linked to patients via PatientDurableKeydepartments.csv Department-level metadata for each encounter
+
+FileDescriptionpatients.csv Patient demographics including age, race, and vital status
+
+encounters.csv Hospital encounter records linked to patients via
+
+PatientDurableKeydepartments.csv Department-level metadata for each encounter
+
 diagnosis.csv Diagnosis codes associated with 
+
 encounterssocial_determinants.csv Social determinants of health (e.g. socioeconomic indicators)
 
 **Data Preparation**
 
 Data Integration: Linked patient and encounter data using DurableKey (patients) and PatientDurableKey (encounters)
+
 Outcome Variable: Binary ED visit flag — Had ED Visit: Yes (1) / No (0); missing encounters treated as no ED visit
+
 Data Filtering: Restricted to living patients with non-missing race and age values
 
 **Methodology**
