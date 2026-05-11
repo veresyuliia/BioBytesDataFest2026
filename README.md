@@ -1,6 +1,8 @@
 # DataFest-2026
 [View presentation](<Presentation%20-%20DataFest-2026.pdf>)
 
+This project was made and submitted for DataFest 2026, hosted by WiDSCI at the University of British Columbia. 
+
 **Overview**
 
 Healthcare utilization varies significantly across populations due to differences in access, cost, and social determinants of health. This project investigates Emergency Department (ED) visit patterns across Kansas, exploring how demographic factors like age and race interact to predict ED utilization.
