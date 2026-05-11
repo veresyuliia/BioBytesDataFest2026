@@ -1,5 +1,6 @@
 # DataFest-2026
-[View presentation] /Presentation%20-%20DataFest%202026.pdf
+[View presentation] Presentation%20-%20DataFest%202026.pdf
+
 **Overview**
 
 Healthcare utilization varies significantly across populations due to differences in access, cost, and social determinants of health. This project investigates Emergency Department (ED) visit patterns across Kansas, exploring how demographic factors like age and race interact to predict ED utilization.
