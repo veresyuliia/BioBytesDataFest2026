@@ -17,15 +17,15 @@ The goal is to identify patterns in emergency department use to better understan
 
 The project uses five linked datasets from a Kansas healthcare system:
 
-FileDescriptionpatients.csv Patient demographics including age, race, and vital status
+*FileDescriptionpatients.csv* Patient demographics including age, race, and vital status
 
-encounters.csv Hospital encounter records linked to patients via
+*encounters.csv* Hospital encounter records linked to patients via
 
-PatientDurableKeydepartments.csv Department-level metadata for each encounter
+*PatientDurableKeydepartments.csv* Department-level metadata for each encounter
 
-diagnosis.csv Diagnosis codes associated with 
+*diagnosis.csv* Diagnosis codes associated with 
 
-encounterssocial_determinants.csv Social determinants of health (e.g. socioeconomic indicators)
+*encounterssocial_determinants.csv* socioeconomic indicators of health 
 
 **Data Preparation**
 
